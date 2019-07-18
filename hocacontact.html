@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main/main.css" type="text/css">
+
+    <!------ Include the above in your HEAD tag ---------->
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="main/main.css" type="text/css">
 
 </head>
 
@@ -28,14 +30,14 @@
                         <li class="nav-item ">
                             <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="hakkımda.html">Hakkımda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projelerim</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">İletişim</a>
+                            <a class="nav-link active" href="contact.html">İletişim</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0" search="search.php">
@@ -48,35 +50,84 @@
 
         <div class="row">
             <div class="col-md-12">
-                <h2 class="">Hakkımda</h2>
+                <h2 class="">İletişim</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Anasayfa</a></li>
                     <li class="breadcrumb-item active">Hakkımda</li>
                 </ol>
             </div>
         </div>
-
-        <h2>Hakkımda</h2>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-6">
+                <form>
+                    <div class="alert alert-info">Görüş ve önerileriniz için lütfen aşağıdaki formu doldudurunuz.</div>
+                    <div class="form-group row">
+                        <label for="firtName" class="col-md-2 col-form-label">Ad:</label>
+                        <div class="col-md-10">
+                            <input type="text" id="firtName" name="firstName" class="form-control" placeholder="Ad"
+                                required>
 
-                <img src="image/sehel.jpg" class="rounded float-left mr-4 " alt="SehelKeskin" width="304" height="236">
-                <p class="justify-content">17 Mayıs 1995 tarihinde İstanbulda doğdum.</p>
-                <br>
-                <p class="justify-content">Şuanda 24 yaşındayım. Küçüklüğümden bu yana İstanbul'un Kağıthane
-                    ilçesinde yaşamaktayım. İlkokul ve ortaokul öğrenimimi Gürsel Ortaokulunda tamamladım. Lisemi
-                    ise İstanbul'un Ayazağa ilçesinde bulunan Mehmet Rıfat Evyap Anadolu ve Teknik lisesinde okudum.
-                    Ardından Cumhuriyet üniversitesi'nde lisans öğrenimimi tamamladım. Şuan ise Wissen Akademie' de
-                    Erp eğitimi almaktayım.</p>
+                        </div>
+                    </div>
 
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Soyad:</label>
+                        <div class="col-md-10">
+                            <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Soyad"
+                                required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="telephone" class="col-md-2 col-form-label">Telefon</label>
+                        <div class="col-md-10">
+                            <input type="text" id="telephone" name="telephone" class="form-control"
+                                placeholder="Telefon" required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Email"
+                                required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="message" class="col-md-2 col-form-label">Mesaj:</label>
+                        <div class="col-md-10">
+                            <textarea id="message" name="message" class="form-control" placeholder="mesajınız" required
+                                rows="6"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-10 offset-md-2">
+                            <button type="submit" class="btn btn-primary">Gönder</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                            <div class="col-md-10 offset-md-2">
+                                <input type="checkbox" id="kvkk" name="kvkk"> 
+                                <label for="kvkk">
+                                    <a href=kvkk.html target="_blank"> Kvkk Aydınlatma Metini Okudum ve Kabul Ediyorum.</a> </label>
+                            </input>
+                            </div>
+                        </div>
+
+
+                </form>
             </div>
-            <div class="col-md-4 ">
-                <iframe class="float-right" width="300" height="315" src="https://www.youtube.com/embed/2cqlKR_kbKk"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+            <div class="col-md-6">
 
-
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12036.5539323147!2d29.0068164!3d41.0441006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa05d7aa13cfcaf89!2sWissen!5e0!3m2!1str!2str!4v1563448334683!5m2!1str!2str"
+                    width="540" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
         </div>
 
@@ -93,21 +144,21 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                        <h3>Baglantılar</h3>
-                        <ul>
-                            <li><a href="index.html">Anasayfa</a></li>
-                            <li><a href="hakkımda.html">Hakkımda</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="contact.html">İletişim</a></li>
-                        </ul>
-                    </div>
+                    <h3>Baglantılar</h3>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="hakkımda.html">Hakkımda</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
                 <div class="col-md-3">
                     <h3>KVKK</h3>
                     <ul>
                         <li>Çerez Kullanımı</li>
                         <li>Kullanım Koşulları</li>
                         <li>Gizlilik Politikası</li>
-                        <li><a href="kvkk.html" target="_blank" >KVKK Aydınlatma Metni</a></li>
+                        <li>KVKK Aydınlatma Metni</li>
                     </ul>
                 </div>
                 <div class="col-md-3">

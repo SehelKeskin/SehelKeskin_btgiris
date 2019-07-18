@@ -9,17 +9,8 @@
 
 
     <!------ Include the above in your HEAD tag ---------->
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-    <style>
-       
-        #demo {
-
-            background-color: #333333;
-        }
-    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="main/main.css" type="text/css">
 
 </head>
 
@@ -30,7 +21,7 @@
 
                 <a class="navbar-brand" href="index.html">SEHELKESKİN</a>
 
-             
+
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -46,53 +37,103 @@
                             <a class="nav-link" href="hakkımda.html">Hakkımda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projelerim</a>
+                            <a class="nav-link active" href="projects.html">Projelerim</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">İletişim</a>
+                            <a class="nav-link " href="contact.html">İletişim</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0" search="search.php">
                         <input class="form-control mr-sm-2" type="search" placeholder="Ara" name="q">
                         <button class="btn btn-success my-2 my-sm-0" type="submit">Ara</button>
                     </form>
+
+
                 </div>
             </nav>
         </header>
-
-
-
-        <footer class="footer bg-dark text-light p-4">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3>Hakkında</h3>
-                    <p>Bu Benim kişisel web sitem</p>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Anasayfa</a></li>
+            <li class="breadcrumb-item active">Projelerim</li>
+        </ol>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card d-block" style="height: 500px">
+                    <img src="image/hospital.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Randevu Sistemi</h5>
+                        <p class="card-text">Hastaların istediği hastaneden alabileceği randevular.</p>
+                        <a href="#" class="btn btn-primary"
+                            style="position: absolute; right:15px; bottom: 10px">Ayrıntılar</a>
+                    </div>
                 </div>
-                <div class="col-md-3">
+            </div>
+            <div class="col-md-4">
+                <div class="card d-block" style="height: 500px">
+                    <img src="image/kutuphane.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kütüphane App</h5>
+                        <p class="card-text">Dilediğin kadar kitaba erişme vakti.</p>
+                        <a href="#" class="btn btn-primary"
+                            style="position: absolute; right:15px; bottom: 10px">Ayrıntılar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-block" style="height: 500px">
+                    <img src="image/word.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Word App</h5>
+                        <p class="card-text">Word belgesi oluşturmak için kullan.</p>
+                        <a href="#" class="btn btn-primary"
+                            style="position: absolute; right:15px; bottom: 10px">Ayrıntılar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br><br>
+    <footer class="footer bg-dark text-light p-4 ">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Hakkında</h3>
+                <p>Bu Benim kişisel web sitem</p>
+
+             <div class="social-media">
+              <a href="https://www.instagram.com/sehelkeskin">  <i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/sehelkeskin">  <i class="fab fa-linkedin"></i></a>
+              <a href="htts://www.twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="htts://www.github.com/sehelkeskin"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="col-md-3">
                     <h3>Baglantılar</h3>
                     <ul>
-                        <li>link1</li>
-                        <li>Link2</li>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="hakkımda.html">Hakkımda</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    <h3>KVKK</h3>
-                    <ul>
-                        <li>Çerez Kullanımı</li>
-                        <li>Kullanım Koşulları</li>
-                        <li>Gizlilik Politikası</li>
-                        <li>KVKK Aydınlatma Metni</li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h3>KVKK</h3>
-                    <ul>
-                        <li>Telif HAkkı</li>
-                        <li>&copy; 2019-Her hakkı saklıdır.</li>
-                    </ul>
-                </div>
-
-        </footer>
+            <div class="col-md-3">
+                <h3>KVKK</h3>
+                <ul>
+                    <li>Çerez Kullanımı</li>
+                    <li>Kullanım Koşulları</li>
+                    <li>Gizlilik Politikası</li>
+                    <li><a href="kvkk.html" target="_blank" >KVKK Aydınlatma Metni</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>KVKK</h3>
+                <ul>
+                    <li>Telif HAkkı</li>
+                    <li>&copy; 2019-Her hakkı saklıdır.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
