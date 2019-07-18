@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head lang="tr-Tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
@@ -23,14 +25,13 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">Hakkımda</a>
+                            <a class="nav-link" href="hakkımda.html">Hakkımda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projelerim</a>
@@ -47,7 +48,6 @@
             </nav>
         </header>
         <div id="demo" class="carousel slide" data-ride="carousel">
-
             <!-- Indicators -->
             <ul class="carousel-indicators">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -95,76 +95,81 @@
                         aria-labelledby="v-pills-home-tab">
                         <div class="row">
                             <div class="col-4">
-                                <div class="card" style="height: 380px">
+                                <div class="card d-block" style="height: 430px">
                                     <img src="image/hospital.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Randevu Sistemi</h5>
                                         <p class="card-text">Hastaların istediği hastaneden alabileceği randevular.</p>
-                                        <a href="#" class="btn btn-primary">Ayrıntılar</a>
+                                        <a href="#" class="btn btn-primary"
+                                            style="position: absolute; right:15px; bottom: 10px">Ayrıntılar</a>
                                     </div>
                                 </div>
                             </div>
+                            <!--sildim-->
                             <div class="col-4">
-                                <div class="card" style="height: 380px">
+                                <div class="card d-block" style="height: 430px">
                                     <img src="image/kutuphane.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Kütüphane App</h5>
                                         <p class="card-text">Dilediğin kadar kitaba erişme vakti.</p>
-                                        <a href="#" class="btn btn-primary">Ayrıntılar</a>
+                                        <a href="#" class="btn btn-primary"
+                                            style="position: absolute; right:15px; bottom: 10px">Ayrıntılar</a>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-4">
-                                <div class="card" style="height: 380px">
+                                <div class="card d-block" style="height: 430px">
                                     <img src="image/word.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Word App</h5>
                                         <p class="card-text">Word belgesi oluşturmak için kullan.</p>
-                                        <a href="#" class="btn btn-primary">Ayrıntılar</a>
+                                        <a href="#" class="btn btn-primary"
+                                            style="position: absolute; right:15px; bottom: 10px">Ayrıntılar</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                            aria-labelledby="v-pills-profile-tab">.Oldu.</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                            aria-labelledby="v-pills-messages-tab">.O zaman..</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                            aria-labelledby="v-pills-settings-tab">.Evet..</div>
                     </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">.Oldu.</div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">.O zaman..</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">.Evet..</div>
                 </div>
             </div>
-            <footer class="footer bg-dark text-light p-4">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h3>Hakkında</h3>
-                        <p>Bu Benim kişisel web sitem</p>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>Baglantılar</h3>
-                        <ul>
-                            <li>link1</li>
-                            <li>Link2</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>KVKK</h3>
-                        <ul>
-                            <li>Çerez Kullanımı</li>
-                            <li>Kullanım Koşulları</li>
-                            <li>Gizlilik Politikası</li>
-                            <li>KVKK Aydınlatma Metni</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>KVKK</h3>
-                        <ul>
-                            <li>Telif HAkkı</li>
-                            <li>&copy; 2019-Her hakkı saklıdır.</li>
-                        </ul>
-                    </div>
+        </div>
+
+        <footer class="footer bg-dark text-light p-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Hakkında</h3>
+                    <p>Bu Benim kişisel web sitem</p>
                 </div>
+                <div class="col-md-3">
+                    <h3>Baglantılar</h3>
+                    <ul>
+                        <li>link1</li>
+                        <li>Link2</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>KVKK</h3>
+                    <ul>
+                        <li>Çerez Kullanımı</li>
+                        <li>Kullanım Koşulları</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>KVKK Aydınlatma Metni</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>KVKK</h3>
+                    <ul>
+                        <li>Telif HAkkı</li>
+                        <li>&copy; 2019-Her hakkı saklıdır.</li>
+                    </ul>
+                </div>
+
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

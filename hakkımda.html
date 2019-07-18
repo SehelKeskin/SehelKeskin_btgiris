@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="tr-Tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+         .breadcrumb-item+.breadcrumb-item::before {
+            content: "/";
+        }
+
+        #demo {
+
+            background-color: #333333;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">SEHELKESKİN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="hakkımda.html">Hakkımda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projelerim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">İletişim</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" search="search.php">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Ara" name="q">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit">Ara</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="container">
+            <h2>Hakkımda</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Anasayfa</a></li>
+                        <li class="breadcrumb-item active">Hakkımda</li>
+                    </ol>
+                    <img src="image/sehel.jpg" class="rounded float-left mr-4 " alt="SehelKeskin" width="304"
+                        height="236">
+                    <p class="justify-content">17 Mayıs 1995 tarihinde İstanbulda doğdum.</p>
+                    <br>
+                    <p class="justify-content">Şuanda 24 yaşındayım. Küçüklüğümden bu yana İstanbul'un Kağıthane
+                        ilçesinde yaşamaktayım. İlkokul ve ortaokul öğrenimimi Gürsel Ortaokulunda tamamladım. Lisemi
+                        ise İstanbul'un Ayazağa ilçesinde bulunan Mehmet Rıfat Evyap Anadolu ve Teknik lisesinde okudum.
+                        Ardından Cumhuriyet üniversitesi'nde lisans öğrenimimi tamamladım. Şuan ise Wissen Akademie' de
+                        Erp eğitimi almaktayım.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <iframe width="300" height="315" src="https://www.youtube.com/embed/2cqlKR_kbKk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+
+            </div>
+        </div>
+
+        <footer class="footer bg-dark text-light p-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Hakkında</h3>
+                    <p>Bu Benim kişisel web sitem</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Baglantılar</h3>
+                    <ul>
+                        <li>link1</li>
+                        <li>Link2</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>KVKK</h3>
+                    <ul>
+                        <li>Çerez Kullanımı</li>
+                        <li>Kullanım Koşulları</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>KVKK Aydınlatma Metni</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>KVKK</h3>
+                    <ul>
+                        <li>Telif HAkkı</li>
+                        <li>&copy; 2019-Her hakkı saklıdır.</li>
+                    </ul>
+                </div>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
